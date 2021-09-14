@@ -1,0 +1,4 @@
+db.posts.update(
+   { author: "a1" },
+   { $inc: { quantity: 1, "dislike": 1 } }
+)

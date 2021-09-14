@@ -1,0 +1,48 @@
+p, body {
+    margin: 0;
+}
+
+.content {
+    height: 50vh;
+}   
+
+.content__banner {
+    background-image: url(3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    overflow: auto; 
+}
+
+.contnent__text {
+    color: #fff;
+    width: 160px;
+    background-color: black;
+    opacity: 0.9;
+    margin: 20px;
+    padding: 10px;
+    position: relative;
+} 
+
+.text-top-right {
+    float: right;
+}
+
+.text-top-left {
+    float: left;
+}
+
+.text-bottom-right {
+    bottom: -490px;
+    float: right;
+}
+
+.text-bottom-left {
+    bottom: -490px;
+    float: left; 
+}
+
+.text-center {
+    margin: 20vh auto;
+}
+  

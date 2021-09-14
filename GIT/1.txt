@@ -1,0 +1,7 @@
+git clone git@example.com:example/test.git
+git status
+git branch master
+git add .
+git commit -m "add somthing"
+git push
+

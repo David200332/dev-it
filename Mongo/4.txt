@@ -1,0 +1,6 @@
+db.posts.find({}, {title:1, _id:0})
+
+db.posts.aggregate( [
+   { $group: { _id: null,
+               total: { $sum: "$dislike" } } }
+] )

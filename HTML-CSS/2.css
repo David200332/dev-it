@@ -1,0 +1,36 @@
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.content div {
+    height: 50px;
+    width: 50px;
+}
+
+.rot {
+    height: 50px;
+    width: 50px;
+    animation: 2s linear 0s normal none infinite running rot;
+    width: 100px;
+  }
+  
+  @keyframes rot {
+    0% {
+      transform: rotate(0deg);
+      background: red;
+    }
+    33% {
+        transform: rotate(120deg);
+        background: orange;
+    }
+    66% {
+        transform: rotate(240deg);
+        background: green; 
+    }
+    100% {
+      transform: rotate(360deg);
+      background: red;
+    }
+  
+}
